@@ -20,7 +20,7 @@ if(!isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] != TRUE)
 	<body>
 	<a href="/phpmyadmin">PhpMyAdmin</a>
 	<p id="Logo"><a href="index.php">Project Memoria</a></p>
-	<p id="Logo2"><a href="insert.php">Add new photo</a><a style="margin-left: 1%" href="logout.php"> Logout</a></p>
+	<p id="Logo2"><a href="insert.php">Add new media</a><a style="margin-left: 1%" href="logout.php"> Logout</a></p>
 	<div id="mainWindow">
 <p id="welcomeText">Type name, text, tag, anything: </p>
 	<form action="search.php">

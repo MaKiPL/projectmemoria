@@ -89,7 +89,7 @@ else {
 	if($res->num_rows > 0)
 	{
 		$resArray = mysqli_fetch_assoc($res);
-		$imageSection = '<a href="photos/'.$resArray["uri"].'"><img id="imgb" align="top" height="350px" src="photos/' . $resArray["uri"] . '"</img></a>';
+		$imageSection = '<a href="photos/'.$resArray["uri"].'"><img id="imgb" align="top" height="250px" src="photos/' . $resArray["uri"] . '"</img></a>';
 		
 		$statementSql = "SELECT `tag` FROM `tags` WHERE `photoId` = ".$photoId;
 		$res = $mysql->query($statementSql);
